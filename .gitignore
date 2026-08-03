@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.dev
+.env.prod
+.env.*.local
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.log
+Thumbs.db
